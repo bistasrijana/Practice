@@ -259,12 +259,8 @@ window.addEventListener("resize", function () {
         }
 
         /*
-        LOOPS
-        Repeat code multiple times
-        */
-        for (let i = 0; i < 5; i++) {
-            console.log("Number:", i);
-        }
+      
+        
 
         /*
         ARRAYS
