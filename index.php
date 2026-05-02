@@ -258,11 +258,13 @@ window.addEventListener("resize", function () {
             console.log("Fail");
         }
 
+
         /*
-      
+  
 
 
         /*
+          mewo meow
         ARRAYS
         Store multiple values
         */
