@@ -260,7 +260,7 @@ window.addEventListener("resize", function () {
 
         /*
       
-        
+
 
         /*
         ARRAYS
