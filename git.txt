@@ -1,0 +1,128 @@
+//////////////////////////////
+# Set your name (shows in commits)
+git config --global user.name "Your Name"
+
+# Set your email (shows in commits)
+git config --global user.email "youremail@gmail.com"
+
+# Check name
+git config --global user.name
+
+# Check email
+git config --global user.email
+
+///////////////////////////////////
+# Initialize git in a project folder
+git init
+
+# Check status (what is changed / staged)
+git status
+
+# Add all files to staging area
+git add .
+
+# Add only ONE file
+git add filename.html
+
+# Commit changes (save version)
+git commit -m "your message"
+
+# View commit history
+git log
+
+# Compact view of history
+git log --oneline
+
+# Better view (graph + all branches)
+git log --oneline --graph --all
+
+
+///////////////////////////////////////////
+
+# Shows full commit history (scroll view)
+git log
+
+# Exit log screen
+q
+
+
+////////////////////////////////////
+# Check current branch
+git branch
+
+# Create new branch AND switch to it
+git switch -c new-branch
+
+# Switch to existing branch
+git switch master
+
+# OR sometimes main instead of master
+git switch main
+
+////////////////////////////
+# Go to old commit
+git checkout <commit-id>
+
+//////////////////////
+# Go back to master
+git switch master
+
+//////////////////////////////
+# View commit history
+git log
+
+# Go to old version
+git checkout <commit-id>
+
+# Go back to latest
+git switch master
+
+//////////////////////////
+# Create branch from current position
+git switch -c new-feature
+
+# Create branch from specific commit
+git switch -c new-feature <commit-id>
+
+////////////////////////////////
+# Go to master first
+git switch master
+
+# Merge branch into master
+git merge new-feature
+
+/////////////////////
+Commit = saved snapshot of project
+Branch = pointer to commits
+Master = main branch pointer
+HEAD = where you are currently working
+
+////////////////////////////
+# Step 1: start project
+git init
+
+# Step 2: make changes
+
+# Step 3: save version
+git add .
+git commit -m "first version"
+
+# Step 4: create feature branch
+git switch -c feature
+
+# Step 5: work + commit
+
+# Step 6: go back to master
+git switch master
+
+# Step 7: merge feature
+git merge feature
+
+
+///////////////////
+git add .          → prepare changes
+git commit         → save version
+git log            → see history
+git switch         → move between branches
+git checkout      → go to old commit
+git merge          → combine branches
